@@ -7,70 +7,71 @@
 </head>
 
 <body>
-    <table cellspacing="15px">
-        <tr>
-            <td><img src="./SnS-8SWHXGY.jpg" alt="Тут моя фото" class="avatar" /></td>
-            <td>
-                <h1>Иван Васильев</h1>
-                <P><em>Я изучаю языки HTML, и 3D моделирование в <strong>Blender3D</strong></em></P>
-                <P>Я также занимаюсь изготовлением вещей из натуральной кожи, проэктирование выкроек в программе
-                    <strong>Автокад</strong> и фотографированием
-                </P>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Мои социальные сети</h2>
-    <ul>
-        <li><a href="https://vk.com/ivan.wasilev" target="_blank">Мой Vk</a></li>
-        <li><a href="https://t.me/Ioan_wasil" target="_blank">Мой telegram</a></li>
-    </ul>
-    <hr>
-    <h2>Мои хобби</h2>
-    <ol>
-        <li>3D моделирование</li>
-        <li>спорт:бодибилдинг, борьба</li>
-        <li>кожевенное ремесло</li>
-        <li>игра на гитаре</li>
-    </ol>
-    <hr>
-    <h2>Опыт работы</h2>
-    <table>
-        <tr>
-            <th>Сфера деятельности</th>
-            <th>Период</th>
-        </tr>
-        <tr>
-            <td>Кожевенное ремесло</td>
-            <td>2020-2022</td>
-        </tr>
-        <tr>
-            <td>3D моделирование</td>
-            <td>2021-2022</td>
-        </tr>
-        <tr>
-            <td>HTML разработка</td>
-            <td>2020-2022</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Портфолио</h2>
-    <a href="portfolio.html">Смотреть</a>
-    <hr>
-    <h2>Связаться со мной</h2>
-    <form action="/">
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" placeholder="Введите имя...">
-        <br>
-        <label for="email">Ваш Email</label>
-        <input type="email" id="email" placeholder="Введите email">
-        <br>
-        <label for="text">Ваше сообщение</label>
-        <textarea id="text" rows="2" cols="15"></textarea>
-        <br>
-        <input type="submit" value="Связаться">
+    <div class="container">
+        <div class="info">
+            <img src="./SnS-8SWHXGY.jpg" alt="Тут моя фото" class="avatar" />
+            <h1>Иван Васильев</h1>
+            <P>Я изучаю языки HTML, и 3D моделирование в <strong>Blender3D</strong></P>
+            <P>Я также занимаюсь изготовлением вещей из натуральной кожи, проэктирование выкроек в программе
+                <strong>Автокад</strong> и фотографированием
+            </P>
 
-    </form>
+            <h4>Мои социальные сети</h4>
+            <a href="https://vk.com/ivan.wasilev" target="_blank">Мой Vk</a>
+            |
+            <a href="https://t.me/Ioan_wasil" target="_blank">Мой telegram</a>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol>
+                <li>3D моделирование</li>
+                <li>спорт:бодибилдинг, борьба</li>
+                <li>кожевенное ремесло</li>
+                <li>игра на гитаре</li>
+            </ol>
+        </div>
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table>
+                <tr>
+                    <th>Сфера деятельности</th>
+                    <th>Период</th>
+                </tr>
+                <tr>
+                    <td>Кожевенное ремесло</td>
+                    <td>2020-2022</td>
+                </tr>
+                <tr>
+                    <td>3D моделирование</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>HTML разработка</td>
+                    <td>2020-2022</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card bg-red">
+            <h2>Портфолио</h2>
+            <a href="portfolio.html">Смотреть</a>
+        </div>
+
+        <h2>Связаться со мной</h2>
+        <form action="/">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" placeholder="Введите имя...">
+            <br>
+            <label for="email">Ваш Email</label>
+            <input type="email" id="email" placeholder="Введите email">
+            <br>
+            <label for="text">Ваше сообщение</label>
+            <textarea id="text" rows="2" cols="15"></textarea>
+            <br>
+            <input type="submit" value="Связаться">
+        </form>
+
+    </div>
 </body>
 
 </html>
